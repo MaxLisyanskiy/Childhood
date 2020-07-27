@@ -252,7 +252,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div id="map" class="contacts__map">
+                        <div class="contacts__map">
+                            <?php echo do_shortcode( '[yamap center="55.7473,37.6247" height="100%" controls="" zoom="14" type="yandex#map" mobiledrag="0"][/yamap]' ) ?>
                         </div>
                     </div>
                 </div>
